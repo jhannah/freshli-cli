@@ -448,3 +448,6 @@ Freshli.Cli/nuget.config
 
 # Ignore nuget config as it contains passwords or personal access tokens.
 nuget.config
+
+# ignore the directory that's used as "scratch space" when running samples via Docker
+samples/scratch
