@@ -451,3 +451,11 @@ nuget.config
 
 # ignore the directory that's used as "scratch space" when running samples via Docker
 samples/scratch
+
+# ignore Ruby cruft
+Gemfile.lock
+
+# ignore generic build locations
+bin/
+binpublish/
+exe/
